@@ -10,11 +10,11 @@ buildscript {
 
 apply plugin: 'groovy'
 apply plugin: 'spring-boot'
-sourceCompatibility = 1.7
+// sourceCompatibility = 1.7
 version = '1.0'
 
 jar {
-  baseName = 'asap=monolith'
+  baseName = 'asap-monolith'
   version =  '0.1'
 }
 
@@ -43,5 +43,5 @@ dependencies {
 }
 
 task wrapper(type: Wrapper) {
-  gradleVersion = '1.12'
+  gradleVersion = '1.11'
 }
