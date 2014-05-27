@@ -14,7 +14,6 @@ class ChatServerController {
 
   def static POSTS = new JsonSlurper().parse(new ClassPathResource("chat-posts.json").file)
 
-
   @RequestMapping(value = "/api/chat/posts", method = RequestMethod.GET)
   @ResponseBody
   def currentPosts() {
