@@ -9,7 +9,7 @@ class DefaultChatServiceSpec extends Specification {
     def uut = new DefaultChatService()
 
     when:
-    def response = uut.retrieveChatDataFor(null,null)
+    def response = uut.retrieveChatDataFor(null)
 
     then:
     response == null

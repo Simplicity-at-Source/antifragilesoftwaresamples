@@ -12,7 +12,7 @@ public class DefaultASAPServiceSpec extends Specification {
         def uut = new DefaultASAPService(chatService : chatService)
 
         when:
-        def result = uut.performSentimentAnalysis(null, null)
+        def result = uut.performSentimentAnalysis(null)
 
         then:
         result == null
