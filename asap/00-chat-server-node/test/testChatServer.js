@@ -8,7 +8,6 @@ describe('test gene-store: ', function(){
     it('/api/chat/posts works ok', function(done){
         var req = request.get(host + '/api/chat/posts');
         req.end(function(res){
-            console.log("/api/chat/posts res: " + res.text);
             var json = JSON.parse(res.text);
             assert.equal(200, res.status);
             done();
