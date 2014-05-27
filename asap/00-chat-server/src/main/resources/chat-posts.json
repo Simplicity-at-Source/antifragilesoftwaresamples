@@ -19592,11 +19592,11 @@
          "body" : {
             "messageSegments" : [
                {
-                  "text" : "INC0657843 Application Unavailable: Chordiant unavailable via Citrix \nUK/ROI:  UK\nStarted on: Tuesday 27th May 2014\nDescription of the current issue: \nAll agents in First Source Bangalore are unable to login to Chordiant via Citrix\nWhat&#39;s the impact on contact centres? \nAgents are unable to deal with customers via phone or email; this will have an impact on queue volumes in Help TV and Help BBT\nNumber of Contact Centre Agents Impacted: \nApprox.  200\n\n\nEstimated fix time: Unknown",
+                  "text" : "INC0657843 com.simplicityitself.antifragilesoftware.asap.chatserver.Application Unavailable: Chordiant unavailable via Citrix \nUK/ROI:  UK\nStarted on: Tuesday 27th May 2014\nDescription of the current issue: \nAll agents in First Source Bangalore are unable to login to Chordiant via Citrix\nWhat&#39;s the impact on contact centres? \nAgents are unable to deal with customers via phone or email; this will have an impact on queue volumes in Help TV and Help BBT\nNumber of Contact Centre Agents Impacted: \nApprox.  200\n\n\nEstimated fix time: Unknown",
                   "type" : "Text"
                }
             ],
-            "text" : "INC0657843 Application Unavailable: Chordiant unavailable via Citrix \nUK/ROI:  UK\nStarted on: Tuesday 27th May 2014\nDescription of the current issue: \nAll agents in First Source Bangalore are unable to login to Chordiant via Citrix\nWhat&#39;s the impact on contact centres? \nAgents are unable to deal with customers via phone or email; this will have an impact on queue volumes in Help TV and Help BBT\nNumber of Contact Centre Agents Impacted: \nApprox.  200\n\n\nEstimated fix time: Unknown"
+            "text" : "INC0657843 com.simplicityitself.antifragilesoftware.asap.chatserver.Application Unavailable: Chordiant unavailable via Citrix \nUK/ROI:  UK\nStarted on: Tuesday 27th May 2014\nDescription of the current issue: \nAll agents in First Source Bangalore are unable to login to Chordiant via Citrix\nWhat&#39;s the impact on contact centres? \nAgents are unable to deal with customers via phone or email; this will have an impact on queue volumes in Help TV and Help BBT\nNumber of Contact Centre Agents Impacted: \nApprox.  200\n\n\nEstimated fix time: Unknown"
          },
          "likesMessage" : null,
          "url" : "/services/data/v29.0/chatter/feed-items/0D5w000001Cs7spCAB",
