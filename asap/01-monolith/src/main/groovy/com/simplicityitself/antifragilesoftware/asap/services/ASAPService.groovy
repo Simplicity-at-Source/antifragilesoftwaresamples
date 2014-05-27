@@ -1,9 +1,10 @@
 package com.simplicityitself.antifragilesoftware.asap.services
 
 import com.simplicityitself.antifragilesoftware.asap.domain.SentimentAnalysis
+import org.joda.time.DateTime
 
 interface ASAPService {
 
-  SentimentAnalysis performSentimentAnalysis(Formatter.DateTime start, Formatter.DateTime end)
+  SentimentAnalysis performSentimentAnalysis(DateTime start, DateTime end)
 
 }

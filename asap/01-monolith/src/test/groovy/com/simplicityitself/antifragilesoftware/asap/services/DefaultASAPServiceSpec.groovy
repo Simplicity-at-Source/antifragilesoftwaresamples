@@ -2,16 +2,17 @@ package com.simplicityitself.antifragilesoftware.asap.services
 
 import spock.lang.Specification
 
-public class ASAPServiceSpec extends Specification {
+public class DefaultASAPServiceSpec extends Specification {
 
     def"retrieve chatter posts and conduct sentiment analysis"()
 
     {
         given:
-        ASAPService asap = new DefaultASAPService()
+        ChatService chatService = Mock()
+        def uut = new DefaultASAPService(chatService : chatService)
 
         when:
-        def result = asap.performSentimentAnalysis(null, null)
+        def result = uut.performSentimentAnalysis(null, null)
 
         then:
         result == null
